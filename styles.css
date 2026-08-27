@@ -349,6 +349,11 @@ h3 {
   line-height: 1.5;
 }
 
+.profile-image figcaption strong {
+  color: var(--navy-900);
+  font-family: var(--serif);
+}
+
 .case-results {
   color: var(--paper);
   background: var(--navy-950);
@@ -430,6 +435,41 @@ h3 {
   font-family: var(--serif);
   font-size: 18px;
   line-height: 1.55;
+}
+
+.advocacy-photo {
+  margin: 28px 0 0;
+  display: grid;
+  grid-template-columns: minmax(360px, 0.95fr) minmax(0, 1.05fr);
+  border: 1px solid #586475;
+  background: var(--navy-800);
+}
+
+.advocacy-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.advocacy-photo figcaption {
+  padding: 38px;
+  align-self: center;
+}
+
+.advocacy-photo figcaption strong {
+  display: block;
+  color: var(--paper);
+  font-family: var(--serif);
+  font-size: 27px;
+  line-height: 1.25;
+}
+
+.advocacy-photo figcaption p {
+  margin: 16px 0 0;
+  color: #dfe4e9;
+  font-size: 16px;
 }
 
 .services {
@@ -589,6 +629,14 @@ h3 {
   outline-offset: 4px;
 }
 
+.contact-details .press-details {
+  grid-column: 1 / -1;
+}
+
+.press-details p a {
+  display: inline;
+}
+
 .site-footer {
   padding: 22px 0;
   color: #cfd6dd;
@@ -607,6 +655,7 @@ h3 {
 }
 
 #about,
+#history,
 #services,
 #contact {
   scroll-margin-top: 20px;
@@ -690,6 +739,19 @@ h3 {
   .history-photo figcaption {
     border-top: 1px solid #586475;
     border-left: 0;
+  }
+
+  .advocacy-photo {
+    grid-template-columns: 1fr;
+  }
+
+  .advocacy-photo img {
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  .advocacy-photo figcaption {
+    border-top: 1px solid #586475;
   }
 
   .practice-band {
@@ -776,6 +838,14 @@ h3 {
   .history-photo figcaption {
     padding: 22px;
     font-size: 16px;
+  }
+
+  .advocacy-photo figcaption {
+    padding: 24px 22px;
+  }
+
+  .advocacy-photo figcaption strong {
+    font-size: 23px;
   }
 
   .service-card {

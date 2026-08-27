@@ -12,6 +12,7 @@ The page presents the firm's existing content in a traditional legal layout that
 - In-house counsel, special counsel, and legislative work descriptions
 - Published practice areas, court admissions, address, telephone, fax, and email
 - Existing photographs of the 1999 tribal-state gaming compact negotiations, Mr. Marston speaking, and the Chicken Ranch Ninth Circuit argument
+- Existing photograph of Mr. Marston marching with tribal leaders to the federal courthouse in San Francisco in support of his summary judgment motion in `Chemehuevi Indian Tribe, et al. v. Wilson, et al.`
 - July 2024 Google Street View exterior of the firm's Victorian-style office at 405 West Perkins Street
 
 ## Visual-system profile
@@ -33,7 +34,7 @@ The page presents the firm's existing content in a traditional legal layout that
 
 | Route | Title class | Body style | Links | Cards | Graphics | Desktop | Phone |
 |---|---|---|---|---|---|---|---|
-| `/` | Primary hero and shared section titles | Shared body tokens | Separate word, button, and navigation roles | Flat case and service panels | Three real firm images | 1440 px | 390 px |
+| `/` | Primary hero and shared section titles | Shared body tokens | Separate word, button, and navigation roles | Flat case and service panels | Exterior plus four real historical firm images | 1440 px | 390 px |
 
 ## Boundaries
 
