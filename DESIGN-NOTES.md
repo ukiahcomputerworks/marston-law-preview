@@ -8,6 +8,7 @@ The page presents the firm's existing content in a traditional legal layout that
 
 - Lester J. Marston's Cahuilla identity and more than 40 years of experience
 - Career beginning at California Indian Legal Services and private practice beginning in 1982
+- Public-facing prose uses Tribal Nations, tribal communities, Native people, or a specific Nation's proper name. Exact legal, statutory, organizational, agency, and case titles retain their official wording.
 - Tillie Hardwick settlement result and Chicken Ranch Ninth Circuit result
 - In-house counsel, special counsel, and legislative work descriptions
 - Published practice areas, court admissions, address, telephone, fax, and email

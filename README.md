@@ -1,6 +1,6 @@
 # The Law Office of Lester J. Marston website preview
 
-Static, dependency-free staged website for an established Ukiah law practice focused on federal Indian law and tribal representation.
+Static, dependency-free staged website for an established Ukiah law practice focused on Federal Indian Law and representation of Tribal Nations.
 
 ## Local preview
 
