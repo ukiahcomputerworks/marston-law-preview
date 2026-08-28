@@ -349,6 +349,94 @@ h3 {
   line-height: 1.5;
 }
 
+.credentials {
+  border-top: 1px solid var(--line);
+  background: var(--paper-alt);
+}
+
+.credentials-layout {
+  margin-top: 46px;
+  display: grid;
+  grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.credentials-summary {
+  display: grid;
+  gap: 28px;
+}
+
+.credential-panel {
+  padding: 30px 32px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--gold);
+  background: var(--paper);
+}
+
+.credential-panel h3 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--line);
+  color: var(--navy-900);
+}
+
+.credential-panel p,
+.credential-panel li {
+  color: var(--slate-700);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.credential-panel > p:first-of-type {
+  margin-bottom: 6px;
+  color: var(--navy-950);
+  font-weight: 700;
+}
+
+.credential-note {
+  margin-top: 6px;
+}
+
+.publication-list,
+.admission-list {
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-list li,
+.admission-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.publication-list li::before,
+.admission-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.72em;
+  left: 0;
+  width: 7px;
+  height: 2px;
+  background: var(--gold-dark);
+}
+
+.publication-list li + li {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.publication-list li + li::before {
+  top: calc(18px + 0.72em);
+}
+
+.admission-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 28px;
+}
+
 .profile-image figcaption strong {
   color: var(--navy-900);
   font-family: var(--serif);
@@ -655,6 +743,7 @@ h3 {
 }
 
 #about,
+#credentials,
 #history,
 #services,
 #contact {
@@ -698,6 +787,7 @@ h3 {
 
   .profile-layout,
   .section-heading,
+  .credentials-layout,
   .relationship-layout,
   .contact-layout {
     grid-template-columns: 1fr;
@@ -706,6 +796,10 @@ h3 {
 
   .profile-image {
     max-width: 620px;
+  }
+
+  .credentials-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .case-grid,
@@ -812,6 +906,8 @@ h3 {
   }
 
   .credential-row,
+  .credentials-summary,
+  .admission-list,
   .contact-details {
     grid-template-columns: 1fr;
   }
@@ -849,6 +945,10 @@ h3 {
   }
 
   .service-card {
+    padding: 26px 22px;
+  }
+
+  .credential-panel {
     padding: 26px 22px;
   }
 
